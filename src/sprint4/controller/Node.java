@@ -3,7 +3,6 @@ package sprint4.controller;
 import sprint4.task.Task;
 
 public class Node {
-
     private Node first;
     private Node last;
     private Task task;

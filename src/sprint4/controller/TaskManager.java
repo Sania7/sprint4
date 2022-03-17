@@ -6,6 +6,7 @@ import sprint4.task.Task;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public interface TaskManager {
 
     Task getTask(int id);

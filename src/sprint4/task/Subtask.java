@@ -3,6 +3,7 @@ package sprint4.task;
 import sprint4.util.Status;
 
 public class Subtask extends Task {
+
     private Epic epic;
 
     public Subtask(String title, String description, int id, Status status, Epic epic) {
