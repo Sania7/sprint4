@@ -1,7 +1,6 @@
 package sprint4.task;
 
 import sprint4.util.Status;
-
 import java.util.Objects;
 
 public class Task {

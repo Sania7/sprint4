@@ -1,7 +1,6 @@
 package sprint4.task;
 
 import sprint4.util.Status;
-
 import java.util.ArrayList;
 
 public class Epic extends Task {

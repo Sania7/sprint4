@@ -46,14 +46,17 @@ public class Main {
         for (Task tmp : taskManager.history()) {
             System.out.println(tmp);
         }
+
         taskManager.removeTask(task1.getId());
         for (Task tmp : taskManager.history()) {
             System.out.println(tmp);
         }
+
         taskManager.removeEpic(epic.getId());
         for (Task tmp : taskManager.history()) {
             System.out.println(tmp);
         }
+
         Task task2update = new Task("Задача 2", "Описание 2", ++id, Status.IN_PROGRESS);
         taskManager.updateTask(task2update);
         for (Task tmp : taskManager.history()) {
